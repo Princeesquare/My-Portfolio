@@ -37,6 +37,15 @@ body {
   height: auto;
 }
 
+.nav_container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
 .navbar {
   background-color: var(--secondary-color);
   padding: 10px 0;
